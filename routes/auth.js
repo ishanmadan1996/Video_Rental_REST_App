@@ -5,8 +5,6 @@ const Joi = require('joi');
 const router = express.Router();
 const _ = require("lodash");
 const bcrypt = require('bcryptjs');
-const jwt = require("jsonwebtoken");
-const config = require("config");
 const asyncMiddleware = require("../middleware/async");
 
 //authenticate users i.e let them login
