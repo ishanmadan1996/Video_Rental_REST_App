@@ -9,6 +9,8 @@ https://guarded-plateau-75943.herokuapp.com
 
 ```
 
+## For the live demo, please watch the video titled Demo.mp4
+
 ## Routes or API endpoints
 ```
 POST to https://guarded-plateau-75943.herokuapp.com/api/users/ to create a new user in the db, with name, email, password fields defined in body of the request. The response contains a token id which we can then include in our req headers as an authorization token.
