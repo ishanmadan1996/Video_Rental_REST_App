@@ -15,7 +15,7 @@ https://guarded-plateau-75943.herokuapp.com
 ```
 POST to https://guarded-plateau-75943.herokuapp.com/api/users/ to create a new user in the db, with name, email, password fields defined in body of the request. The response contains a token id which we can then include in our req headers as an authorization token.
 
-POST to https://guarded-plateau-75943.herokuapp.com/api/genres/ with name:genre field in body f req, and the above received auth token in header, to create a genre resource in the db.
+POST to https://guarded-plateau-75943.herokuapp.com/api/genres/ with name:genre field in body of req, and the above received auth token in header, to create a genre resource in the db.
 ```
 
 ## Other routes can be found in:-
